@@ -148,7 +148,7 @@ class Toast extends React.PureComponent {
       inner = content
     } else {
       inner =
-        (<View style={{ flex: 1, justifyContent: 'center' }}>
+        (<View style={{ flex: 1, justifyContent: 'center', padding: 5 }}>
           <Text style={[styles.toastText, textStyle]}>{text}</Text>
         </View>)
     }
